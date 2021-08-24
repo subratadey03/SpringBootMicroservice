@@ -1,0 +1,15 @@
+# https://docs.spring.io/spring-boot/docs/2.2.x/reference/html/appendix-application-properties.html
+logging:
+  file:
+    name: "/logs/eureka.log"
+    max-size: 10MB
+    total-size-cap: 100MB
+  level:
+    root: WARN
+
+eureka:
+  instance:
+    hostname: ${EUREKA_HOST:eureka}
+  client:
+    serviceUrl:
+      defaultZone: "http://${EUREKA_HOST:127.0.0.1}:${server.port}/eureka/"
