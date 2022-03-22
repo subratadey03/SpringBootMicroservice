@@ -1,15 +1,15 @@
-package jp.co.tec.ngp.discovery;
+package com.sub.serviceRegistry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@EnableEurekaServer
 @SpringBootApplication
-public class SpringEurekaApplication {
+@EnableEurekaServer
+public class ServiceRegistryApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringEurekaApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ServiceRegistryApplication.class, args);
+	}
 
 }
