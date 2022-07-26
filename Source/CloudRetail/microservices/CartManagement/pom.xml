@@ -9,9 +9,9 @@
 		 <relativePath>../</relativePath>
     </parent>
 	<groupId>com.sub</groupId>
-	<artifactId>CartManagement</artifactId>
+	<artifactId>cartManagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CartManagement</name>
+	<name>cartManagement</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

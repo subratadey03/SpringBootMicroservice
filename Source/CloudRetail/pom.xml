@@ -13,11 +13,5 @@
         <module>./microservices/inventoryManagement</module>
         <module>./microservices/customerManagement</module>
         <module>./microservices/productReviewManagement</module>
-    </modules>
-	<properties>	
-	    <spring-messaging-version>5.1.5.RELEASE</spring-messaging-version>
-		<spring-framework-bom-version>5.2.10.RELEASE</spring-framework-bom-version>
-		<spring-statemachine-bom-version>2.2.0.RELEASE</spring-statemachine-bom-version>
-		<spring-boot-dependencies-version>2.3.3.RELEASE</spring-boot-dependencies-version>
-	</properties>	
+    </modules>	
 </project>
