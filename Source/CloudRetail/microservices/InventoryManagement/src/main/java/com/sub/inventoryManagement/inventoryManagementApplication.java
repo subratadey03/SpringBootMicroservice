@@ -1,13 +1,13 @@
-package com.sub.ProductReviewManagement;
+package com.sub.inventoryManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductReviewManagementApplication {
+public class inventoryManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductReviewManagementApplication.class, args);
+		SpringApplication.run(inventoryManagementApplication.class, args);
 	}
 
 }

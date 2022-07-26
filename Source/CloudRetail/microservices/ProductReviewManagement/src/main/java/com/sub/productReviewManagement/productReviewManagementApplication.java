@@ -1,13 +1,13 @@
-package com.sub.CustomerManagement;
+package com.sub.productReviewManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CustomerManagementApplication {
+public class productReviewManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CustomerManagementApplication.class, args);
+		SpringApplication.run(productReviewManagementApplication.class, args);
 	}
 
 }

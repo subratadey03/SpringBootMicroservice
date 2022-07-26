@@ -1,10 +1,10 @@
-package com.sub.CartManagement;
+package com.sub.cartManagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CartManagementApplicationTests {
+class cartManagementApplicationTests {
 
 	@Test
 	void contextLoads() {

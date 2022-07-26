@@ -9,10 +9,10 @@
 	<packaging>pom</packaging>
 	<description>Retail Microservices</description>
 	<modules>
-        <module>./microservices/CartManagement</module>
-        <module>./microservices/InventoryManagement</module>
-        <module>./microservices/CustomerManagement</module>
-        <module>./microservices/ProductReviewManagement</module>
+        <module>./microservices/cartManagement</module>
+        <module>./microservices/inventoryManagement</module>
+        <module>./microservices/customerManagement</module>
+        <module>./microservices/productReviewManagement</module>
     </modules>
 	<properties>	
 	    <spring-messaging-version>5.1.5.RELEASE</spring-messaging-version>

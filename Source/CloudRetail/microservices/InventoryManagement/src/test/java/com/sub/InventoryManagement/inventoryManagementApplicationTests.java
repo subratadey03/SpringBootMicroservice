@@ -1,10 +1,10 @@
-package com.sub.ProductReviewManagement;
+package com.sub.InventoryManagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProductReviewManagementApplicationTests {
+class inventoryManagementApplicationTests {
 
 	@Test
 	void contextLoads() {

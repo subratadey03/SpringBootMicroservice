@@ -1,13 +1,13 @@
-package com.sub.CartManagement;
+package com.sub.cartManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CartManagementApplication {
+public class cartManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CartManagementApplication.class, args);
+		SpringApplication.run(cartManagementApplication.class, args);
 	}
 
 }
