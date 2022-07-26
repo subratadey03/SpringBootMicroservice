@@ -9,6 +9,7 @@
 	<packaging>pom</packaging>
 	<description>Retail Microservices</description>
 	<modules>
+        <module>./microservices/microserviceCommon</module>
         <module>./microservices/cartManagement</module>
         <module>./microservices/inventoryManagement</module>
         <module>./microservices/customerManagement</module>
