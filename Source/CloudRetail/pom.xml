@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>		 
+	<groupId>com.sub.CloudRetail</groupId>
+	<artifactId>CloudRetail</artifactId>
+	<version>${revision}</version>
+	<name>CloudRetail</name>
+	<packaging>pom</packaging>
+	<description>Retail Microservices</description>
+	<modules>
+        <module>./microservices/CartManagement</module>
+        <module>./microservices/InventoryManagement</module>
+        <module>./microservices/CustomerManagement</module>
+        <module>./microservices/ProductReviewManagement</module>
+    </modules>
+	<properties>	
+	    <spring-messaging-version>5.1.5.RELEASE</spring-messaging-version>
+		<spring-framework-bom-version>5.2.10.RELEASE</spring-framework-bom-version>
+		<spring-statemachine-bom-version>2.2.0.RELEASE</spring-statemachine-bom-version>
+		<spring-boot-dependencies-version>2.3.3.RELEASE</spring-boot-dependencies-version>
+	</properties>	
+</project>
