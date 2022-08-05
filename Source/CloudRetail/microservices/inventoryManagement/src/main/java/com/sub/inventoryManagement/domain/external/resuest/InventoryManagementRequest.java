@@ -5,6 +5,7 @@
  */
 package com.sub.inventoryManagement.domain.external.resuest;
 
+import com.sub.microserviceCommon.domain.request.CloudRetailRequest;
 import lombok.NoArgsConstructor;
 
 /**
@@ -12,6 +13,6 @@ import lombok.NoArgsConstructor;
  * InventoryManagementRequest.java
  */
 @NoArgsConstructor
-public abstract class InventoryManagementRequest {
+public abstract class InventoryManagementRequest implements CloudRetailRequest{
 
 }

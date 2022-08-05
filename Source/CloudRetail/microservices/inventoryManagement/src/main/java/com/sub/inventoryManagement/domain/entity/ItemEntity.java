@@ -42,10 +42,10 @@ public class ItemEntity implements Serializable {
     @Column(name = "ITEM_SUBCATEGORY_1", nullable = false, length = 20)
     private String itemSubCategory_1;
 
-    @Column(name = "ITEM_SUBCATEGORY_1", nullable = false, length = 20)
+    @Column(name = "ITEM_SUBCATEGORY_2", nullable = false, length = 20)
     private String itemSubCategory_2;
 
-    @Column(name = "ITEM_SUBCATEGORY_1", nullable = false, length = 20)
+    @Column(name = "ITEM_SUBCATEGORY_3", nullable = false, length = 20)
     private String itemSubCategory_3;
 
     @Column(name = "ITEM_MESUREMENT_UNIT", nullable = false)
