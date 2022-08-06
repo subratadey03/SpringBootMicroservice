@@ -20,7 +20,7 @@ import lombok.Data;
 @Entity
 @Table(name = "M_INVENTORY_INFO")
 @Data
-public class InventroyEntity implements Serializable{
+public class InventoryEntity implements Serializable{
     
     /**
      * serialVersionUID

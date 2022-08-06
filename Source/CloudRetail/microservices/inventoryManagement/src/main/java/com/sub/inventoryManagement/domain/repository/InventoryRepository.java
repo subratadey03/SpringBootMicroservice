@@ -6,11 +6,11 @@
 package com.sub.inventoryManagement.domain.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.sub.inventoryManagement.domain.entity.InventroyEntity;
+import com.sub.inventoryManagement.domain.entity.InventoryEntity;
 /**
  * @author Subrata Dey
  * InventoryRepository.java
  */
-public interface InventoryRepository  extends JpaRepository<InventroyEntity, Integer>{
+public interface InventoryRepository  extends JpaRepository<InventoryEntity, Integer>{
 
 }

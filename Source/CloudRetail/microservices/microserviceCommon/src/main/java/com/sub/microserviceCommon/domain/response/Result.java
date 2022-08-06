@@ -23,6 +23,14 @@ import lombok.NoArgsConstructor;
 public class Result {
     
     @Builder.Default
+    @JsonProperty("ms")
+    private int ms = 1;
+
+    @Builder.Default
+    @JsonProperty("api")
+    private int api = 1;
+    
+    @Builder.Default
     @JsonProperty("code")
     private int code = 0;
 }

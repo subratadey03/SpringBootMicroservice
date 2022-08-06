@@ -3,7 +3,7 @@
  * Data of Creation : Jul 26, 2022 4:53:49 PM
  *
  */
-package com.sub.inventoryManagement.domain.external.resuest;
+package com.sub.inventoryManagement.domain.external.request;
 
 import com.sub.microserviceCommon.domain.request.CloudRetailRequest;
 import lombok.NoArgsConstructor;
